@@ -41,7 +41,7 @@
                                 <color key="textColor" red="0.74509803921568629" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checker_bottom.png" translatesAutoresizingMaskIntoConstraints="NO" id="fMX-df-yuH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="checker_bottom.png" translatesAutoresizingMaskIntoConstraints="NO" id="fMX-df-yuH">
                                 <rect key="frame" x="0.0" y="546" width="320" height="22"/>
                             </imageView>
                         </subviews>
@@ -49,8 +49,10 @@
                         <constraints>
                             <constraint firstItem="ocG-8x-Exb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6M8-ad-QIB"/>
                             <constraint firstItem="F1a-18-5Ay" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bwa-DD-rNI"/>
+                            <constraint firstItem="fMX-df-yuH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hxo-Of-9bT"/>
                             <constraint firstItem="F1a-18-5Ay" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Mjg-Lz-A44"/>
                             <constraint firstItem="c7E-eN-Ccg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wes-O1-7cF"/>
+                            <constraint firstItem="fMX-df-yuH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="mtw-E4-X68"/>
                             <constraint firstItem="cGf-2I-l2T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="swi-t0-eEU"/>
                         </constraints>
                     </view>

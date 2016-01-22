@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3463D5091C5272D0002582E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3463D5081C5272D0002582E6 /* AVFoundation.framework */; };
 		346781EF1C4FF3AD00964DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 346781EE1C4FF3AD00964DCD /* main.m */; };
 		346781F21C4FF3AD00964DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346781F11C4FF3AD00964DCD /* AppDelegate.m */; };
 		346781F51C4FF3AD00964DCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346781F41C4FF3AD00964DCD /* ViewController.m */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3463D5081C5272D0002582E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		346781EA1C4FF3AD00964DCD /* Tap Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		346781EE1C4FF3AD00964DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		346781F01C4FF3AD00964DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3463D5091C5272D0002582E6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +118,7 @@
 		346781E11C4FF3AD00964DCD = {
 			isa = PBXGroup;
 			children = (
+				3463D5081C5272D0002582E6 /* AVFoundation.framework */,
 				346781EC1C4FF3AD00964DCD /* Tap Me */,
 				346782061C4FF3AD00964DCD /* Tap MeTests */,
 				346782111C4FF3AD00964DCD /* Tap MeUITests */,
